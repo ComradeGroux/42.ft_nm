@@ -6,7 +6,7 @@
 /*   By: vgroux <vgroux@student.42lausanne.ch>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 14:15:00 by vgroux            #+#    #+#             */
-/*   Updated: 2025/05/13 14:15:40 by vgroux           ###   ########.fr       */
+/*   Updated: 2025/05/13 14:26:04 by vgroux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,7 @@ int main(int argc, char **argv, char **envp)
 	(void)argv;
 	(void)envp;
 
+	if (argc == 1)
+		
 	return 0;
 }

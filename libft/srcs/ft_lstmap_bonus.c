@@ -6,7 +6,7 @@
 /*   By: vgroux <vgroux@student.42lausanne.ch>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 15:54:34 by vgroux            #+#    #+#             */
-/*   Updated: 2024/02/15 15:56:35 by vgroux           ###   ########.fr       */
+/*   Updated: 2025/05/13 14:27:12 by vgroux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	newlist = NULL;
 	while (lst)
 	{
-		newnode = ft_lstnew(f(lst->content), NULL);
+		newnode = ft_lstnew(f(lst->content));
 		if (!newnode)
 		{
 			ft_lstclear(&newlist, del);
