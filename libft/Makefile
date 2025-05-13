@@ -6,7 +6,7 @@
 #    By: vgroux <vgroux@student.42lausanne.ch>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/30 14:09:53 by vgroux            #+#    #+#              #
-#    Updated: 2025/05/13 14:21:01 by vgroux           ###   ########.fr        #
+#    Updated: 2025/05/13 15:11:52 by vgroux           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ CC =         gcc
 CFLAGS =     -Wall -Wextra -Werror
 RM =         rm -f
 
-DIR_H = headers/
+DIR_H = ./
 DIR_S =	srcs/
 CREATE_DIR_O = @mkdir -p objs
 DIR_O =	objs/

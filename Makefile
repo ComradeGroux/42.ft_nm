@@ -15,7 +15,11 @@ CREATE_DIR_O = @mkdir -p objs
 DIR_O =	objs/
 
 
-SRCS_LIST =	main.c \
+SRCS_LIST =	error.c \
+			main.c \
+			nm_x32.c \
+			nm_x64.c \
+			print.c
 
 SRCS =		${addprefix ${DIR_S}, ${SRCS_LIST}}
 
