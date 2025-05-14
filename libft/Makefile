@@ -6,7 +6,7 @@
 #    By: vgroux <vgroux@student.42lausanne.ch>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/30 14:09:53 by vgroux            #+#    #+#              #
-#    Updated: 2025/05/13 15:11:52 by vgroux           ###   ########.fr        #
+#    Updated: 2025/05/14 13:31:24 by vgroux           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,6 +52,9 @@ SRCS_LIST =	ft_atoi.c \
 			ft_printf_ptr.c \
 			ft_printf_utils.c \
 			ft_printf.c \
+			ft_printerr_ptr.c \
+			ft_printerr_utils.c \
+			ft_printerr.c \
 			ft_putchar_fd.c \
 			ft_putendl_fd.c \
 			ft_putnbr_fd.c \
